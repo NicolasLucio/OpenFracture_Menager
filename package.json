@@ -19,6 +19,11 @@
      "com.unity.testtools.codecoverage": "1.0.1"
    },
    "samples": [
+		{
+			"displayName": "Sample Assets",
+			"description": "Assets used by the samples",
+			"path": "Samples~/_SampleAssets"
+		},
         {
             "displayName": "FractureDemo",
             "description": "Demo scene for the Fracture script",
@@ -33,6 +38,11 @@
             "displayName": "SliceDemo",
             "description": "Demo scene for the Slice script",
             "path": "Samples~/SliceDemo"
-        }
+        },
+		{
+			"displayName": "ManagerPlaygroundDemo",
+			"description": "Demo scene for the Manager System and other things",
+			"path": "Samples~/ManagerPlaygroundDemo"
+		}
     ]
 }
