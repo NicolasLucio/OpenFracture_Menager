@@ -1,4 +1,18 @@
-# OpenFracture
+# OpenFracture Menager
+
+When I looked this system, I thought that would be nice if it has some kind of a Menager Script to gerenciate the objetcs after destruction.
+
+So....
+## Installing
+You can import using Unity's built-in Package Manager with:
+
+>https://github.com/NicolasLucio/OpenFracture_Menager.git
+
+
+## Menager Documentation
+I made a Documentation focused on this fork [here](/Documentation~/Menager.md)
+
+# OpenFracture (Original)
 
 ![OpenFracture GitHub Header](https://user-images.githubusercontent.com/3814912/148176407-a0c49ba0-c704-4b60-89a3-cea47175b6c2.gif)
 

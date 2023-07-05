@@ -9,7 +9,7 @@ public class FragmentManagerEditor : EditorWindow
     GameObject tempObj = null;
     string debugText = "";
 
-    [MenuItem("Window/Ksaa/Fragment Manager")]
+    [MenuItem("Window/Ksaa/Fragment Menager")]
     public static void ShowWindow()
     {        
         GetWindow<FragmentManagerEditor>("Fragment Manager");         
@@ -23,7 +23,7 @@ public class FragmentManagerEditor : EditorWindow
     void OnGUI()
     {
         GUILayout.Space(10);
-        if(GUILayout.Button("Add Fragment Manager"))
+        if(GUILayout.Button("Add Fragment Menager"))
         {
             if (FindObjectOfType<FragmentManager>())
             {

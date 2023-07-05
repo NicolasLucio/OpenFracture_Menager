@@ -54,7 +54,7 @@ public class FragmentExplosionInspector : Editor
 
             EditorGUILayout.HelpBox(
                 "This variable will multiply the \"Explosion Radius\" variable in ordem to catch the objects again to stop their rigidbodies components.\n" +
-                "This is useful for situations that the \"Delay to Stop\" variable is set to high, and the fragments are to far away from its origin.\n" + 
+                "This is useful for situations that the \"Delay to Stop\" variable is set too high, and the fragments are to far away from its origin.\n" + 
                 "Be aware that this number can cause unwarted consequences, that could be even in other objetcts on the range or in your game performance.", 
                 MessageType.Info, 
                 true

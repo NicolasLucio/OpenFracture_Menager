@@ -103,6 +103,15 @@ public class FragmentManager : MonoBehaviour
                     Destroy(auxC.GetComponent<Rigidbody>());
                 }
             }
+            else if (!destroyFragmentsRigidbody && removeShadow)
+            {
+                Transform[] tempChildrens = aux.GetComponentsInChildren<Transform>();
+                foreach (Transform auxC in tempChildrens)
+                {
+                    auxC.GetComponentInChildren<Renderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+                    auxC.GetComponentInChildren<Renderer>().receiveShadows = false;
+                }                
+            }
         }
     }
 
