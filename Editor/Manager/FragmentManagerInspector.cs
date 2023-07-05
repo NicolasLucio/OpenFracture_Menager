@@ -37,7 +37,7 @@ public class FragmentManagerInspector : Editor
         {
             EditorGUILayout.PropertyField(destroyFragmentsRigidbody);
             EditorGUILayout.PropertyField(removeShadow);
-        }
+        }      
 
         EditorGUILayout.PropertyField(showDebugLogMessages);        
 
