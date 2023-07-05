@@ -23,7 +23,7 @@ That whay, you have the following variables:
 | Check Timer      | This script is not checking with every tick, so here you define the time in <b>Seconds</b> of every time that the Menager will check if something was destructed. <br>Manipulate this variable is a wonderfull way to optimize your situation, so if your Scene is not destructing objects very often, you can let that number way more higher      |
 | Destroy Timer  | After the Check return true, how much time in Seconds will take to the menager take the cleaning action.   |
 | Destroy  | That will destroy all the fragments on the scene.<br>If <b>true</b>, it will hide the others options       |
-| Destroy Fragments Rigidboy  | Remove the pyshics of the objects, so your character will not kick the fragments, and most important, will not calculate the objects physics anymore. |
+| Destroy Fragments Rigidbody  | Remove the pyshics of the objects, so your character will not kick the fragments, and most important, will not calculate the objects physics anymore. |
 | Remove Shadow | Remove the Mesh Rendering of the object, if you don't need the fragments shadows.<br>That really impact scenes with realtime lights.<br> |
 | Show Debug Log Messages  | Just for Debug Porposses |
 
